@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>about</title>
+
+
+<!--==jQuery=ページトップへ移動の設定==-->
+    <style>
+        #pagetop{
+            position:fixed;
+            right: 20px;
+            bottom:-60px;
+            cursor:pointer;
+        }
+    </style>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>    
+    <script>
+        $(function() {
+            //ページトップへのスクロール
+            $('#pagetop').click(function () {
+                //id名#pagetopがクリックされたら、以下の処理を実行
+                $("html,body").animate({scrollTop:0},"300");
+            });
+            //ページトップの出現
+            $('#pagetop').hide();
+            $(window).scroll(function () {
+                if($(window).scrollTop() > 0) {
+                    $('#pagetop').slideDown(600);
+                } else {
+                    $('#pagetop').slideUp(600);
+                }
+            });
+            //ホバーイベント
+            $("#pagetop").mouseover(function(){
+                $(this).animate({
+                    bottom:"0px"
+                },300);
+            });
+            $("#pagetop").mouseout(function(){
+                $(this).animate({
+                    bottom:"-60px"
+                },300);
+            });
+        });
+    </script>
+
+	<script type="text/javascript" src="js/jquery-1.6.4.min.js"></script>
+
+<!--==jQuery=ページトップへ移動の設定==-->
+
+<!--==CSSリンク設定==-->
+<link rel="stylesheet" href="css/about.css">
+<!--==CSSリンク設定==-->
+
+</head>
+
+<body>
+
+<header>
+	<!--========= header ========-->
+	<div class="boxs1 clearfix">
+
+		<div class="rogo"></div>
+
+		<div class="img-box1 mail"></div>
+		<div class="img-box1 blog"></div>
+		<div class="img-box1 portfolio"></div>
+		<div class="img-box1 works"></div>
+		<div class="img-box1 about"></div>
+
+	</div>
+</header>
+<!--========= header ========-->
+
+<p class="breadcrumblist"><!--==パンくずリスト==-->
+<a href="index.html#top">トップページ</a>
+</p>
+<!--========= main ========-->
+<div class="main"></div>
+<!--========= main ========-->
+<div class="bgresu"></div>
+
+
+<div class="boxs2 clearfix">
+<h2>
+	<img src="img/works.png" alt="works 実績 works">
+</h2>
+    <!--========= 実績1========-->
+    <div class="relative txtbox1">
+    <img src="img/bgwhite.png" alt="背景" />
+    <img src="img/workimg1.jpg" alt="実績1" class="absolute" />
+    <p class="title">イベントバナー</p>
+    <p class="comment">目立つように制作してほいとの要望でした。</p>
+    <p class="time">製作時間：1日　ﾘﾃｲｸ込み</p>
+
+    </div>
+    <!--========= 実績1========-->
+
+
+    <!--========= 実績2========-->
+    <div class="relative txtbox2">
+    <img src="img/bgwhite.png" alt="背景" />
+    <img src="img/workimg2.jpg" alt="実績2" class="absolute" />
+<p class="title">求人バナー</p>
+    <p class="comment workcomment1">女性メインの求人なので優しい色見にしてみました。</p>
+    <p class="time">製作時間：1時間</p>
+
+    </div>
+
+  
+    <!--========= 実績2========-->
+
+
+    <!--========= 実績3========-->
+    <div class="relative txtbox3">
+    <img src="img/bgwhite.png" alt="背景" />
+    <img src="img/workimg3.jpg" alt="実績3" class="absolute" />
+    <p class="title">イベントバナー</p>
+    <p class="comment">女性のイベントですので華やかさを心掛けました。</p>
+    <p class="time">製作時間：2時間</p>
+    </div>
+    <!--========= 実績3========-->
+
+</div>
+
+
+<div class="more1"></div>
+
+
+<div class="boxs3 clearfix">
+
+<h2>
+	<img src="img/Portfolio.png" alt="Portfolio 作品集">
+</h2>
+
+    <!--========= 作品集1========-->
+    <div class="relative txtbox1">
+    <img src="img/bgwhite.png" alt="背景" />
+    <img src="img/Portfolio1.jpg" alt="作品集1" class="absolute" />
+       <p class="title">ページトップボタン</p>
+    <p class="comment">使用ソフト：illustrator</p>
+    <p class="time">製作時間：1時間</p>
+    </div>
+    <!--========= 作品集1========-->
+
+
+    <!--========= 作品集2========-->
+    <div class="relative txtbox2">
+    <img src="img/bgwhite.png" alt="背景" />
+    <img src="img/Portfolio2.jpg" alt="作品集2" class="absolute" />
+       <p class="title">SNSアイコン用</p>
+    <p class="comment">使用ソフト：illustrator、Photoshop</p>
+    <p class="time">製作時間：xxx</p>
+    </div>
+    <!--========= 作品集2========-->
+
+
+    <!--========= 作品集3========-->
+    <div class="relative txtbox3">
+    <img src="img/bgwhite.png" alt="背景" />
+    <img src="img/Portfolio3.jpg" alt="作品集3" class="absolute" />
+       <p class="title">アイコン素材</p>
+    <p class="comment">使用ソフト：illustrator</p>
+    <p class="time">製作時間：xxx</p>
+    </div>
+    <!--========= 作品集3========-->
+
+        <!--========= 作品集4========-->
+    <div class="relative txtbox4">
+    <img src="img/bgwhite.png" alt="背景" />
+    <img src="img/Portfolio4.jpg" alt="作品集4=" class="absolute" />
+       <p class="title">バナー素材</p>
+    <p class="comment">使用ソフト：illustrator</p>
+    <p class="time">製作時間：1時間</p>
+    </div>
+    <!--========= 作品集4========-->
+
+
+    <!--========= 作品集5=======-->
+    <div class="relative txtbox5">
+    <img src="img/bgwhite.png" alt="背景" />
+    <img src="img/Portfolio5.jpg" alt="作品集5" class="absolute" />
+       <p class="title">バナー素材</p>
+    <p class="comment">使用ソフト：illustrator</p>
+    <p class="time">製作時間：1時間</p>
+    </div>
+    <!--========= 作品集5========-->
+
+
+    <!--========= 作品集6========-->
+    <div class="relative txtbox6">
+    <img src="img/bgwhite.png" alt="背景" />
+    <img src="img/Portfolio6.jpg" alt="作品集6" class="absolute" />
+       <p class="title">バナー素材</p>
+    <p class="comment">使用ソフト：Photoshop</p>
+    <p class="time">製作時間：30分</p>
+    </div>
+    <!--========= 作品集6========-->
+
+
+
+</div>
+
+<div class="more2"></div>
+
+<!--==ページトップへ移動の設定==-->
+<div id="pagetop">
+    <img src="common/img/pagetop.png" alt="ページトップ">
+</div>
+<!--==ページトップへ移動の設定==-->
+
+
+<!--==========footer==========-->
+<footer>
+	
+	<div class="boxs4 clearfix">
+
+         <div class="img-box4 about2"></div>
+         <div class="img-box4 works2"></div>
+         <div class="img-box4 portfolio2"></div>
+	</div>
+</footer>
+
+<!--==========footer==========-->
+
+</body>
+
+
+</html> 

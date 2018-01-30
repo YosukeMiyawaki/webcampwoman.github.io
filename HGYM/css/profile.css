@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/*body {
+	font: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}*/
+
+a {
+text-decoration: none;
+}
+
+img{
+	transition: 0.5s;
+}
+img:hover{
+	opacity: 0.7;
+}
+
+
+#container{
+	width: 100%;
+	height: 700px;
+	background-image: url(../img/profile.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 62.5%;
+	position: relative;
+}
+
+.logo{
+	position: fixed;
+	top: 7px;
+	left: 40px;
+	z-index: 20000;
+}
+
+#menu{
+	width: 100%;
+	min-width: 900px;
+	height: 34px;
+	margin: 0 auto;
+	position: fixed;
+	top: 20px;
+	left: 0;
+	display: block;
+	background: rgb(255,223,0);
+	z-index: 10000;
+}
+
+#menu a{
+	color: #737061;
+}
+
+.menu_btns{
+	width: 592px;
+	margin: 0 auto;
+	line-height: 34px;
+}
+.menu_btn {
+	border: none;
+	color: #737061;
+	padding: 0 30px;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease;
+	text-align: center;
+	list-style: none;
+	float: left;
+}
+
+.menu_btn:hover {
+	background: #ee7701;
+	color: #000000;
+	box-shadow: inset 0 0 0 0px #ee7701;
+}
+
+.fa-envelope-o{
+	margin-right: 5px;
+	font-size: 16px;
+}
+
+
+
+.sns_btn{
+	float: right;
+	color: #737061;
+}
+
+.sns-fa{
+	margin-right: 10px;
+	float: left;
+	line-height: 34px;
+	list-style: none;
+	font-size: 17px;
+}
+
+.sns_btn a{
+  display: inline-block;
+  transition: .5s;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.sns_btn a:hover{
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.profile{
+	width: 700px;
+	color: #737061;
+	font-size: 11px;
+	position: absolute;
+	bottom: 10%;
+	left: 25%;
+
+}
+
+.profile_title{
+	width: 70px;
+	height: 40px;
+	background-image: url(../img/profile_title.png);
+}
+.profile_txt{
+	background-color: #FFF;
+	text-align: center;
+	padding: 20px;
+	border-color: #737061;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.members{
+	width: 900px;
+	margin: 10px auto 0;
+}
+
+.member_logo{
+	background-image: url(../img/member.png);
+	width: 72px;
+	height: 40px;
+}
+
+.member_list{
+	width: 900px;
+	height: 220px;
+	border-color: #737061;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.member{
+	width: 430px;
+	color: #737061;
+	font-size: 13px;
+	float: left;
+	margin: 10px 0 0 10px;
+}
+
+.fa-member{
+	font-size: 15px;
+}
+
+.member a{
+  display: inline-block;
+  transition: .5s;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.member a:hover{
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+ .fa-home-member{
+ 	color: #ee7701;
+ 	margin-left: 10px;
+ }
+
+ .fa-twitter-member{
+ 	color: #44A5CB;
+ 	margin-left: 3px;
+ }
+
+.fa-instagram-member{
+	color: #2C1005;
+	margin-left: 7px;
+}
+.member14{
+	text-align: right;
+}
+
+.yasumasa{
+	width: 900px;
+	margin: 30px auto;
+}
+
+.yasumasa_logo{
+	background-image: url(../img/profile_hgym.png);
+	width: 190px;
+	height: 40px;
+}
+
+.yasumasa_profile{
+	width: 900px;
+	height: 670px;
+	border-color: #737061;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.yasumasa_photo{
+	width: 500px;
+	height: 332px;
+	background-image: url(../img/yasumasa.jpg);
+	margin: 10px auto;
+
+}
+
+.yasumasa_txt{
+	color: #737061;
+	font-size: 11px;
+	text-align: center;
+}
+
+
+/*footer*/
+.copyright{
+	color: #737061;
+	font-size: 8px;
+	text-align: center;
+	padding-bottom: 30px;
+}

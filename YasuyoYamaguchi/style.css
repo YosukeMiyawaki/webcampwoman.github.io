@@ -1,0 +1,232 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+body{font-family: 'Raleway', sans-serif;}
+
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+header{
+	position: fixed;
+	width: 100%;
+	height: 70px;
+	z-index: 2;
+}
+
+
+
+.header{
+	width: 1024px;
+	margin: 0 auto;
+	background-color: #D1D3C4;
+}
+.title{	float: left;
+	    margin: 0;
+	    padding:0 32px;
+	    width: 960px;
+	    height: 50px;
+	    line-height: 50px;
+	    color: #fafafa;
+	    text-align: left;
+        font-size: 37px;
+}
+.nav{float:right;	
+}
+.nav-list{
+	float: left;
+	height: 30px;
+	margin:0 20px; 
+	line-height: 20px;
+	color: #FAFAFA;
+	font-size: 25px;
+	text-align: center;
+	list-style: none;	
+}
+.nav-list a{
+	color: #FAFAFA;
+	font-size: 20px;
+	text-decoration: none;
+}
+.nav li a:hover{
+    color:black;
+    text-decoration: none;
+}
+
+
+
+.top{padding-top:90px;
+}
+.topimage{
+	margin: 0 auto;
+    width: 1024px;
+    height: 550px;
+    background-image: url(img/top.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+.whitebox1{height: 30px;
+	      width: 1024px;
+	      margin: 0 auto;
+    background-color: white;}
+
+
+
+.about{margin: 0px auto;
+	   width: 1024px;
+       height: 550px;
+       padding-top: 90px;
+       background-color: #DADDD8; 
+}
+.abouttext1{
+	width: 500px;
+	font-size:32px;
+	text-align: center;
+    color:black;
+    margin: 0 auto;
+}
+.aboutmainbox{
+	width:1000px;
+	height:550px;
+	margin:0 auto;
+}
+.aboutimage{width: 300px;
+height: 300px;
+margin:70px 0 70px 90px;
+background-image: url(img/about.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+border-radius: 50%; 
+float:left;}
+
+.abouttextbox{width: 550px;
+float: right;
+}
+
+.abouttext2{
+	width: 500px;
+	font-size: 16px;
+    text-align: left;
+    color:black;
+    margin: 40px 0 0 30px;
+}
+a{color: black;
+  font-size: 16px;
+  text-decoration: none;
+}
+a:hover{
+    color:#9B9B93;
+    text-decoration: none;
+}
+.abouttext3{
+	width: 500px;
+	font-size: 16px;
+    text-align: left;
+    color:black;
+    margin: 40px 0 0 30px;
+}
+.abouttext4{
+	width: 500px;
+	font-size: 16px;
+    text-align: left;
+    color:black;
+    margin: 40px 0 0 30px;
+}
+
+
+.gallery{width: 1024px;
+	margin:0 auto;
+	padding-top: 60px;
+	background: #DCDCDC;
+}
+.gallerytitle{width: 500px;
+	height: 50px;
+	margin: 0 auto;
+	margin-top:40px; 
+	text-align: center;
+	font-size: 32px;
+}
+.imagebox{width: 850px;
+margin:0 auto;
+margin-top :40px;
+padding: 0;
+padding-bottom: 40px;
+}
+
+.illust{width: 150px;
+height: 150px;
+float: left;
+padding: 0;
+margin: 10px 10px;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+
+.image1{background-image: url(img/about.jpg);}
+.image1:hover{
+background-image: url(img/cabout.jpg);
+}
+.image2{background-image: url(img/i5.jpg);}
+.image2:hover{
+background-image: url(img/ci5.jpg);
+}
+.image3{background-image: url(img/i6.jpg);}
+.image3:hover{
+background-image: url(img/ci6.jpg);
+}
+
+.image5{background-image: url(img/top.jpg);}
+.image5:hover{
+background-image: url(img/ctop.jpg);
+}
+.image6{background-image: url(img/i1.jpg);}
+.image6:hover{
+background-image: url(img/ci1.jpg);
+}
+.image7{background-image: url(img/i2.jpg);}
+.image7:hover{
+background-image: url(img/ci2.jpg);
+}
+.image8{background-image: url(img/i3.jpg);}
+.image8:hover{
+background-image: url(img/ci3.jpg);
+}
+.image9{background-image: url(img/i4.jpg);
+position: relative;}
+.image9:hover{
+background-image: url(img/ci4.jpg);
+}
+.image10{background-image: url(img/i9.jpg);}
+.image10:hover{
+background-image: url(img/ci9.jpg);
+}
+.image11{background-image: url(img/i11.jpg);
+position: relative;}
+.image11:hover{
+background-image: url(img/ci11.jpg);
+}
+
+
+.now{color: white;
+	background-color:black;
+	position:absolute;
+	top:-10px; 
+	z-index: 1;
+}
+.footer{width: 1024px;
+height: 50px;
+margin: 0 auto;
+text-align: center;
+color: white;
+background-color: #D1D3C4; }

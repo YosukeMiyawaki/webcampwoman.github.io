@@ -1,0 +1,290 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+body{
+	background-image:url(../common/img/bg-stripe.jpg);
+}
+
+/* ===========header=========== */
+header{
+	width: 100%; 
+	height: 150px;
+		background-image:url(../common/img/header/bg.png);
+		background-repeat: repeat-x; /*横方向にのみ背景画像を繰り返し表示します。*/
+}
+
+.boxs1{
+	width: 960px;
+	height: 150px;
+	margin: 0 auto;
+	padding-top: 23px;
+	padding-bottom: 22px;/* ==boxsの要素の下22px空ける== */
+
+}
+
+.rogo{
+	width: 160px; 
+	height: 65px;
+	background-image:url(../common/img/header/rogo.png);
+	float: left;
+}
+.rogo:hover {
+    background-image: url(../common/img/header/rogo-over.png);
+}
+
+
+.img-box1{
+	width: 900px; 
+	height: 70px;
+	background-repeat: no-repeat;/*背景画像を1回だけ表示してリピートはしません*/
+	float: right;
+}
+
+ .mail{
+      margin: 0px 0px 0px 10px; /*上に0px、右に0px、下に0px、左に10px*/
+  	width: 69px;
+ 	background-image: url(../common/img/nav/mail.png);
+ }
+
+.mail:hover {
+    background-image: url(../common/img/nav/mail-over.png);
+}
+
+ .blog{
+ 	margin: 0px 10px; /*上下に0px、左右に10px*/
+  	width: 69px;
+ 	background-image: url(../common/img/nav/blog.png);
+ }
+
+.blog:hover {
+    background-image: url(../common/img/nav/blog-over.png);
+}
+ .portfolio{
+ 	margin: 0px 10px; /*上下に0px、左右に10px*/
+ 	width: 131px;
+ 	background-image: url(../common/img/nav/portfolio.png);
+ }
+
+.portfolio:hover {
+    background-image: url(../common/img/nav/portfolio-over.png);
+}
+
+.works{
+	margin: 0px 15px; /*上下に0px、左右に10px*/
+ 	width: 97px;
+	 background-image: url(../common/img/nav/works.png);
+ }
+
+ .works:hover {
+    background-image: url(../common/img/nav/works-over.png);
+}
+
+.about{
+	margin: 0px 10px; /*上下に0px、左右に10px*/
+	width: 94px;
+	 background-image: url(../common/img/nav/about.png); 
+ }
+ .about:hover {
+    background-image: url(../common/img/nav/about-over.png);
+}
+
+/* ===========header=========== */
+
+
+/* ===========main=========== */
+
+h3{
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 20px;
+	 color: #57302c;
+	 font-weight: normal;
+	 font-size: 16px;
+}
+
+.main{
+	width: 960px;
+	height: 500px;
+	margin: 0 auto;
+	margin-top: 25px;
+	margin-bottom: 70px;/* ==mainの要素の下70px空ける== */
+	 background-image: url(../img/mainimg.jpg); 
+}
+/* ===========main=========== */
+
+
+/* ===========works 実績=========== */
+
+.boxs2{
+    width: 960px;
+	margin: 0 auto;
+	margin-bottom: 50px;/* ==下50px空ける== */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.relative{
+	  width: 310px;
+    height: 412px;
+	background-repeat: no-repeat;/*背景画像を1回だけ表示してリピートはしません*/
+	float: left;
+	   position: relative;
+}
+
+.absolute{
+    position: absolute;
+    right: 55px;
+    top: 40px;
+}
+
+
+.title{
+    position: absolute;
+    top: 260px;
+    right: 55px;
+    left: 55px;
+    font-weight:bolder; 
+    color: #57302c;
+}
+
+.comment{
+    position: absolute;
+    top: 290px;
+    right: 55px;
+    left: 55px;
+    color: #57302c;
+}
+
+.time{
+    position: absolute;
+    top: 350px;
+    right: 55px;
+    left: 55px;
+    color: #57302c;
+}
+
+
+.txtbox2{
+	  margin: 0px 15px 0px 15px; /*上に15px、右に15px、下に0px、左に15px*/
+	  float: left;
+}
+
+
+
+ .more1{
+ 	   width: 140px;
+	height: 132px;
+       background-image: url(../img/more.png);
+       margin: 0 auto;
+       background-repeat: no-repeat;/*背景画像を1回だけ表示してリピートはしません*/
+     margin-bottom: 100px;
+ }
+
+  .more1:hover {
+    background-image: url(../img/more-over.png);
+}
+
+/* ===========works 実績=========== */
+
+/* ===========Portfolio作品集=========== */
+
+.boxs3{
+    width: 960px;
+	margin: 0 auto;
+	margin-bottom: 50px;/* ==mainの要素の下50px空ける== */
+}
+
+
+
+.txtbox4{
+	  margin: 15px 0px 0px 0px; /*上に15px、右に15px、下に0px、左に15px*/
+	  float: left;
+}
+
+
+.txtbox5{
+	  margin: 15px 15px 0px 15px; /*上に15px、右に15px、下に0px、左に15px*/
+	  float: left;
+}
+
+.txtbox6{
+	  margin: 15px 0px 0px 0px; /*上に15px、右に15px、下に0px、左に15px*/
+	  float: left;
+}
+
+ .more2{
+ 	   width: 140px;
+	height: 132px;
+       background-image: url(../img/more.png);
+       margin: 0 auto;
+       background-repeat: no-repeat;/*背景画像を1回だけ表示してリピートはしません*/
+     margin-bottom: 200px;
+ }
+  .more2:hover {
+    background-image: url(../img/more-over.png);
+}
+
+/* ==============footer============== */
+
+footer{
+	width: 100%; 
+	height: 150px;
+		background-image:url(../common/img/footer/bg.png);
+		background-repeat: repeat-x; /*横方向にのみ背景画像を繰り返し表示します。*/
+		float: left;
+}
+
+.boxs4{
+	width: 960px;
+	height: 150px;
+	margin: 0 auto;
+}
+
+.img-box4{
+	 margin:80px 20px 0px 0px; /*上に0px、右に0px、下に0px、左に10px*/
+	height: 70px;
+	background-repeat: no-repeat;/*背景画像を1回だけ表示してリピートはしません*/
+	float: left;
+}
+
+.about2{
+	width: 94px;
+	 background-image: url(../common/img/footer/about2.png); 
+ }
+
+.about2:hover {
+    background-image: url(../common/img/footer/about2-over.png);
+}
+
+.works2{
+ 	width: 97px;
+	 background-image: url(../common/img/footer/works2.png);
+ }
+
+.works2:hover {
+    background-image: url(../common/img/footer/works2-over.png);
+}
+
+ .portfolio2{
+ 	width: 131px;
+ 	background-image: url(../common/img/footer/portfolio2.png);
+ }
+
+.portfolio2:hover {
+    background-image: url(../common/img/footer/portfolio2-over.png);
+}
+
+
+/* ==============footer============== */

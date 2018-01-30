@@ -1,0 +1,122 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+/*Header*/
+header {
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	background-color: rgba(255,255,255,0.8);
+	z-index: 2;
+}
+
+.nav-container {
+	width: 900px;
+	height: 80px;
+	margin: 0 auto;
+}
+
+/*ハンバーガーメニュー*/
+.menu-box{
+	display: none;
+	float: right;
+	width: 40px;
+	height: 40px;
+	margin-right: 5%;
+	/*border: 1px solid #996600;*/
+	margin-top: 13px;
+}
+
+.list-bar{
+	display: block;
+	width: 25px;
+	height: 2px;
+	margin: 7px auto;
+	background-color: #996600;
+}
+
+.list-bar:first-child{
+	margin-top: 10px;
+}
+
+ul {
+	float:right;
+}
+
+.nav-img {
+	float: left;
+	height: 70px;
+	padding: 5px 20px;
+	line-height: 80px;
+}
+
+.nav-list {
+	float: left;
+	list-style: none;
+	line-height: 120px;
+	margin-left: 40px;
+	font-family: 'Alegreya', serif;
+	font-style: italic;
+	font-size: 17px;
+}
+
+.nav-list a {
+	color: #996600;
+}
+
+.nav-list i {
+    font-size: 17px;
+}
+
+a:hover img{
+opacity: 0.6;
+filter: alpha(opacity=60);
+-moz-opacity:0.6;
+}
+
+.main {
+	width: 900px;
+	background-color: white;
+	padding-top: 100px;
+	margin: 0 auto;
+	position:relative;
+    /*box-shadow:0 1px 10px rgba(0, 0, 0, 0.1);*/
+}
+
+.Gallery-sam {
+	width: 880px;
+	margin: 0 auto;
+}
+
+.Gallery-sam img {
+	width: 200px;
+	height: 200px;
+	padding: 0 10px 20px 10px;
+	float: left;
+}
+
+footer {
+    width: 100%;
+	font-family: 'Alegreya', serif;
+    font-size: 15px;
+	text-align: center;
+	line-height: 60px;
+	height: 60px;
+	color: #996600;
+	background-color: white;
+}
+

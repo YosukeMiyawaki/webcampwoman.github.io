@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+a {
+text-decoration: none;
+}
+
+img{
+	transition: 0.5s;
+}
+img:hover{
+	opacity: 0.7;
+}
+
+
+#container{
+	width: 100%;
+	height: 80px;
+	position: relative;
+}
+
+.logo{
+	position: fixed;
+	top: 7px;
+	left: 40px;
+	z-index: 20000;
+}
+
+#menu{
+	width: 100%;
+	min-width: 900px;
+	height: 34px;
+	margin: 0 auto;
+	position: fixed;
+	top: 20px;
+	left: 0;
+	display: block;
+	background: rgb(255,223,0);
+	z-index: 10000;
+}
+
+#menu a{
+	color: #737061;
+}
+
+.menu_btns{
+	width: 592px;
+	margin: 0 auto;
+	line-height: 34px;
+}
+.menu_btn {
+	border: none;
+	color: #737061;
+	padding: 0 30px;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease;
+	text-align: center;
+	list-style: none;
+	float: left;
+}
+
+.menu_btn:hover {
+	background: #ee7701;
+	color: #000000;
+	box-shadow: inset 0 0 0 0px #ee7701;
+}
+
+.fa-envelope-o{
+	margin-right: 5px;
+	font-size: 16px;
+}
+
+
+
+.sns_btn{
+	float: right;
+	color: #737061;
+}
+
+.sns-fa{
+	margin-right: 10px;
+	float: left;
+	line-height: 34px;
+	list-style: none;
+	font-size: 17px;
+}
+
+.sns_btn a{
+  display: inline-block;
+  transition: .5s;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.sns_btn a:hover{
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.disco{
+	font-size: 11px;
+	color: #737061;
+	width: 700px;
+	margin: 20px auto;
+	border-bottom: #737061 1px solid;
+	padding-bottom: 30px;
+}
+
+.disco a{
+	text-decoration: underline;
+}
+
+.disco_title{
+	width: 700px;
+	height: 40px;
+	background-image: url(../img/disco_title.png);
+	background-repeat: no-repeat;
+	border-bottom: #737061 1px solid;
+}
+
+.disco_head{
+	margin-top: 20px;
+}
+
+.disco_main{
+	width: 700px;
+	height: 300px;
+}
+
+.title{
+	font-size: 13px;
+}
+
+.release{
+	font-size: 12px;
+}
+
+.jacket{
+	width: 400px;
+	height: 300px;
+	background-image: url(../img/20171206_main.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: left;
+}
+
+.disco_txt{
+	width: 260px;
+	padding: 5px 20px;
+	float: left;
+}
+
+.disco_devine{
+	width: 700px;
+	height: 20px;
+	margin: 0 auto 20px;
+	border-bottom: #DADADA 1px solid;
+}
+
+.disco_tune_title{
+	font-size: 12px;
+	margin-top: 10px;
+}
+
+
+.disco-youtube{
+	color: #ee7701;
+}
+
+.artist{
+	font-size: 10px;
+}
+
+.tune ol{
+	list-style: none;
+}
+
+.tune li{
+	margin-top: 5px;
+}
+
+.disco_supplement{
+	margin-top: 10px;
+	font-size: 10px;
+}
+
+/*footer*/
+.copyright{
+	color: #737061;
+	font-size: 8px;
+	text-align: center;
+	padding-bottom: 30px;
+}

@@ -1,0 +1,306 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}	
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.container{
+	margin: 0 auto;
+}
+
+body{
+	font-family: 'Satisfy','Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic',serif;
+	/*color: #006888;*/
+	color: #696969;
+}
+
+
+/* =================
+       header
+====================*/
+
+header{
+    position: relative;
+    background-color: #bababa8a;
+    border-bottom: solid 10px #006888;
+}
+
+.mv-title{
+	font-size: 50px;
+	padding-top: 30px;
+	color: rgb(105, 105, 105);
+}
+
+.mv-text{
+	font-size: 30px;
+	padding-bottom: 10px;
+	color: rgb(105, 105, 105);
+}
+
+.sub-title{
+	font-size: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #006888;
+}
+
+.header-rogo{
+	width: 300px;
+	margin: 0 auto;
+	text-align: center;	
+}
+
+.header-rogo a{
+	text-decoration: none;
+	color: white;
+}
+
+/* =================
+       作品紹介
+====================*/
+
+body{
+	/*background-color: #dcf7e657;*/
+}
+
+.creation-group{
+	width: 1024px;
+	margin-top: 50px;
+}
+
+.creationtitle{
+	width: 500px;
+	font-size: 30px;
+	text-align: center;
+	float: right;
+	padding-top: 20px;
+	color: #a5c9c1;
+}
+
+.creation-text{
+	width: 500px;
+	float: right;
+	padding: 40px;
+	font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic',serif;
+	/*color: white;*/
+
+}
+
+
+.diy1-top{
+	width: 500px;
+	height: 500px;
+	background-position: center;
+	background-size: cover;
+	float: left;
+	border-radius: 4%;
+}
+
+.hako {
+	border: 4px #bababa solid;
+    padding: 7px;
+    border-radius: 4%;
+    width: 522px;
+    float: left;
+}
+
+
+
+.photo-group{
+	/*width: 100%;*/
+	width: 1024px;
+	padding: 30px 0 100px 0;
+	margin: 0 auto;
+}
+
+
+.photo{
+	width: 250px;
+	height: 250px;
+	float: left;
+	background-position: center;
+	background-size: cover;
+	border: 3px solid #bababa;
+	border-radius: 5%;
+	margin: 3px;
+
+}
+
+.diy1-top{
+	background-image: url(../img/diy2-7.jpg);
+}
+
+
+.diy1{
+	background-image: url(../img/diy2-1.jpg);
+}
+
+.diy2{
+	background-image: url(../img/diy2-2.jpg);
+}
+
+.diy3{
+	background-image: url(../img/diy2-3.jpg);
+}
+
+.diy4{
+	background-image: url(../img/diy2-4.jpg);
+}
+
+.diy5{
+	background-image: url(../img/diy2-5.jpg);
+}
+
+.diy6{
+	background-image: url(../img/diy2-6.jpg);
+}
+
+.diy7{
+	background-image: url(../img/diy2-7.jpg);
+}
+
+.diy-page{
+	display: block;
+	width: 256px;
+	height: 256px;
+}
+
+
+/* =================
+    navigation
+====================*/
+
+.navigation-group{
+	width: 1024px;
+	margin-bottom: 20px;
+}
+
+
+.backicon{
+	background-image: url(../img/lefticon.png);
+	width: 50px;
+	height: 50px;
+	background-size: 40px 40px;
+	background-repeat: no-repeat;
+	float: left;
+}
+.lefttext{
+	float: left;
+	width: 100px;
+}
+
+
+.backgroup{
+	width: 33%;
+	float: left;
+}
+
+
+.left{
+	font-size: 30px;
+	/*color: white;*/
+}
+
+.backgroup a{
+	text-decoration: none;
+	color: rgb(105, 105, 105);
+}
+
+.topicon{
+	background-image: url(../img/topicon.png);
+	width: 50px;
+	height: 50px;
+	background-size: 40px 40px;
+	background-repeat: no-repeat;
+	float: left;
+}
+.toptext{
+	float: left;
+	width: 100px;
+}
+
+
+.topgroup{
+	width: 33%;
+	float: left;
+	padding-left: 100px;
+}
+
+
+.top{
+	font-size: 20px;
+	text-align: center;
+	/*color: white;*/
+}
+
+.topgroup a{
+	text-decoration: none;
+	color: rgb(105, 105, 105);
+}
+
+.righticon{
+	background-image: url(../img/righticon.png);
+	width: 50px;
+	height: 50px;
+	background-size: 40px 40px;
+	background-repeat: no-repeat;
+	float: left;
+}
+.righttext{
+	float: left;
+	width: 100px;
+}
+
+
+.rightgroup{
+	width: 33%;
+	float: left;
+	text-align: center;
+	padding-left: 187px;
+}
+
+
+.right{
+	font-size: 30px;
+	/*color: white;*/
+}
+
+.rightgroup a{
+	text-decoration: none;
+	color: rgb(105, 105, 105);
+}
+
+
+/* =================
+       footer
+====================*/
+
+footer{
+	width: 100%;
+	background-color: #a5c9c1;
+	height: 50px;
+}
+
+small{
+	margin: 0 auto;
+	line-height: 50px;
+	font-size: 20px;
+
+}
+
+.copyright{
+	margin: 0 auto;
+	width: 300px;
+	text-align: center;
+
+}
+
+
+
+
