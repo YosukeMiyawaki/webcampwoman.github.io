@@ -1,0 +1,150 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+header{
+	height: 70px;
+	background-color: #ffd700;
+}
+body{
+	background-color: #ffffe0;
+}
+.menu{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+li{
+	padding: 0 85px;
+	float: left;
+	color: #00ced1;
+	list-style: none;
+	line-height: 70px;
+	font-size: 30px;
+}
+.center{
+	text-align: center;
+}
+img{
+	width: 1024px;
+	height: 500px;
+	padding-bottom: 50px;
+	background-size: cover;
+	background-position: center;
+}
+.heading{
+	padding: 8px 8px;
+	text-align: center;
+	color: #00ced1;
+	background-color: #ff8c00;
+}
+
+.heading::after{
+	content: "";
+	display: block;
+	width: 70px;
+	height: 3px;
+	margin: 8px auto 0 auto;
+
+}
+.img-boxs{
+width: 1000px;
+margin: 0 auto;
+padding: 50px 0 90px;
+}
+
+.boxs p{
+	margin-top: 300px;
+}
+
+.img_and_text{
+    width: 230px;
+    margin-right: 20px;
+    float: left;
+}
+.img_and_text p{
+	text-align: center;
+}
+
+.img-box{
+	height: 180px;
+	width: 230px;
+	background-color: #db7093;
+	margin: 5px;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+
+}
+
+.img1{
+	background-image: url(wata.JPG);
+}
+.img2{
+	background-image: url(me.jpg);
+}
+.img3{
+	background-image: url(taro.jpg);
+}
+.img4{
+	background-image: url(baby.png);
+}
+
+.img-box2{
+	height: 350px;
+	width: 400px;
+	background-color: #db7093;
+	margin: 20px;
+	float: left;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	font: #00ced1;
+}
+
+.history_img_and_text{
+	width: 500px;
+	text-align: center;
+	line-height: 64px;
+	font-size: 20px;
+	float: left;
+}
+
+.history_img_and_text p{
+margin-top: 120px;
+}
+
+
+.img5{
+	background-image: url(wedding.JPG);
+}
+.img6{
+	background-image: url(tarobirth.JPG);
+}
+.img7{
+	background-image: url(disny.jpg);
+}
+
+.img-box3{
+	width: 400px;
+	height: 700px;
+	background-color: #db7093;
+	margin: 30px 20px;
+	float: left;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	font: #00ced1;
+}
+
+.img8{
+	background-image: url(myhouse.JPG);
+}
+.contact_img_and_text{
+	text-align: center;
+	font-size: 32px;
